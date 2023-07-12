@@ -1,8 +1,15 @@
+import React from 'react';
+import './footer.css';
 
-
-export default function App() {
+export default function Footer() {
   return (
-    <div>
+    <footer className="footer-container">
+    <div className="footer">
+        개인정보 처리방침 | 이용 약관
     </div>
+    <div>
+      All rights reserved @ Codestates
+    </div>
+</footer>
   );
 }
