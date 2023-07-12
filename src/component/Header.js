@@ -25,8 +25,8 @@ export default function Header() {
           <div>
             <ul className='dropdown-menu'>
               <li className='hello'>○○○님, 안녕하세요!</li>
-              <li><Link to="/product">🎁상품 리스트</Link></li>
-              <li><Link to="/bookmark">⭐북마크 페이지</Link></li>
+              <li><Link to="/product"><img src='../productIcon.png' /> 상품 리스트</Link></li>
+              <li><Link to="/bookmark"><img src='../bookmarkIcon.png' /> 북마크 페이지</Link></li>
             </ul>
           </div>
         )}
