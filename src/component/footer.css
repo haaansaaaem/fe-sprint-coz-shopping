@@ -1,0 +1,14 @@
+.footer-container {
+  padding: 0 76px;
+  text-align: center;
+  height: 80px;
+  color: #a3a3a3;
+  border-top: 1px solid lightgrey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer{
+  padding-top: 18px
+}
