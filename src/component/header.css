@@ -38,13 +38,14 @@ div.logo-img {
   top: 100%;
   right: 0;  
   z-index: 1;
-  min-width: 160px;
+  min-width: 200px;
   padding: 10px 0;
   margin: 2px 0 0;
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0,0,0,.2);
+  list-style: none;
 }
 
 .dropdown-menu > * {
@@ -54,4 +55,14 @@ div.logo-img {
 
 .dropdown-menu > *:hover {
   background-color: #f6f6f6;
+}
+
+.dropdown-menu li a {
+  text-decoration: none; 
+  color: black;
+}
+
+.dropdown-menu > .hello {
+  background-color: white;
+  cursor: default;
 }
