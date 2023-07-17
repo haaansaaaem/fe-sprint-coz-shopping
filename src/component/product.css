@@ -1,0 +1,19 @@
+.product-container {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 10px; 
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
