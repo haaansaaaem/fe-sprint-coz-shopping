@@ -1,4 +1,4 @@
-import { BrowserRouter as Route, Routes } from 'react-router-dom';  // npm install react-router-dom
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; // npm install react-router-dom
 import './app.css';
 import Header from './component/Header'
 import Main from './pages/Main'
@@ -11,9 +11,9 @@ export default function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route exact path="/" component={Main} />
-        <Route path="/products/list" component={ProductList} /> 
-        <Route path="/bookmark" component={Bookmark} /> 
+        <Route exact path="/" element={<Main />} />
+        <Route path="/products/list" element={<ProductList />} /> 
+        <Route path="/bookmark" element={<Bookmark />} /> 
       </Routes>
       <Footer />
     </BrowserRouter>
