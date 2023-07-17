@@ -1,0 +1,55 @@
+section {
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  padding-top: 200px; 
+}
+
+.product-container {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 10px; 
+}
+
+.product-container img {
+  width: 200px;  
+  height: 200px; 
+  object-fit: cover;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 0.5fr;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.list-title {
+  text-align: left;
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.bookmarkIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px; 
+  margin-bottom: 10px;
+}
+
+
+
