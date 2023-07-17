@@ -22,6 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore specific files
-/src/pages/Bookmark.js
-/src/pages/ProductList.js
+
+# Ignore .gitignore file itself
+/.gitignore
